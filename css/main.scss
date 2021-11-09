@@ -1,9 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;800&display=swap");
 :root{
-    --main-color: #1E88E5;
-    --second-color: #42A5F5;
-    --third-color: #90CAF9;
-    --cirlce-color: #BBDEFB;
+    --main-bg-color: #1E88E5;
+    --second-bg-color: #42A5F5;
+    --third-bg-color: #90CAF9;
+    --cirlce--bg-color: #BBDEFB;
 }
 
 
@@ -46,7 +46,7 @@ ul {
 }
 
 .nav-container {
-    background: var(--main-color);
+    background: var(--main-bg-color);
     a,
     h1 {
         color: white;
@@ -54,7 +54,7 @@ ul {
 }
 
 .content {
-    background: var(--second-color);
+    background: var(--second-bg-color);
     color: white;
     display: grid;
     text-align: center;
@@ -91,7 +91,7 @@ section {
     width: 200px;
     height: 200px;
     border-radius: 50%;
-    background: var(--cirlce-color);
+    background: var(--cirlce-bg-color);
     top: 0;
     left: 0;
     z-index: -1;
@@ -131,14 +131,14 @@ section {
 }
 .project-img1{
     border-radius: 5%;
-    border: 5px solid var(--main-color);
+    border: 5px solid var(--main-bg-color);
     margin-left: auto;
     margin-right: auto;
     width: 50%;
 }
 .project-img2{
     border-radius: 5%;
-    border: 5px solid var(--main-color);
+    border: 5px solid var(--main-bg-color);
     margin-left: auto;
     margin-right: auto;
     width: 50%;
@@ -178,7 +178,7 @@ section {
 }
 
 .about-container {
-    background: var(--third-color);
+    background: var(--third-bg-color);
     padding: 3em;
     margin-top: -1em;
     margin-right: -4em;
@@ -208,7 +208,7 @@ section {
 }
 
 footer {
-    background: var(--main-color);
+    background: var(--main-bg-color);
    font-weight:bold;
    text-align: center;
 a{
@@ -272,13 +272,13 @@ a{
     }
     .project-img1{
         border-radius: 5%;
-        border: 8px solid var(--main-color);
+        border: 8px solid var(--main-bg-color);
         width: 800;
         height: 600;
     }
     .project-img2{
         border-radius: 5%;
-        border: 8px solid var(--main-color);
+        border: 8px solid var(--main-bg-color);
         width: 800;
         height: 600;
     }
