@@ -199,13 +199,11 @@ section {
 .skills .wrapper {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[3];
-      grid-template-columns: repeat(3, 1fr);
-  grid-auto-rows: 150px;
-  grid-gap: 3em;
-  grid-row-gap: 50px;
-  width: 100%;
-  overflow-x: hidden;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  grid-auto-rows: 200px;
+  grid-gap: 1em;
+  grid-row-gap: 100px;
 }
 
 .skills .wrapper img {
@@ -371,6 +369,24 @@ footer a:hover {
   .home-content span {
     font-size: 50px;
     margin-top: .5em;
+  }
+  .skills .wrapper {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[3];
+        grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 150px;
+    grid-gap: 1em;
+    grid-row-gap: 100px;
+  }
+  .skills .wrapper img {
+    height: 75%;
+    width: 75%;
+  }
+  .skills .wrapper h1 {
+    letter-spacing: .1em;
+    font-weight: bold;
+    font-size: 1.5em;
   }
 }
 /*# sourceMappingURL=main.css.map */
