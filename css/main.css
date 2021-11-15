@@ -47,7 +47,6 @@ ul a {
   display: block;
   padding: 0 1em;
   margin-top: 1.5em;
-  margin-right: -1em;
 }
 
 .nav-container {
@@ -253,6 +252,7 @@ footer a:hover {
 }
 
 .skills {
+  margin-top: -5em;
   max-width: 100%;
 }
 

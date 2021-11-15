@@ -35,7 +35,6 @@ ul {
         display: block;
         padding: 0 1em;
         margin-top: 1.5em;
-        margin-right: -1em;
     }
 }
 
@@ -231,6 +230,7 @@ a:hover{
 }
 
 .skills{
+    margin-top: -5em;
     max-width: 100%;
     .wrapper{
         display: grid;
