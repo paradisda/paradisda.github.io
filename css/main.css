@@ -254,9 +254,7 @@ footer a:hover {
 .skills {
   margin-top: -5em;
   max-width: 100%;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  margin-right: -2em;
 }
 
 .skills .wrapper {
