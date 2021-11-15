@@ -17,6 +17,7 @@ ul {
 }
 a {
     text-decoration: none;
+    color: white;
 }
 
 header {
@@ -25,7 +26,7 @@ header {
     }
     display: flex;
     justify-content: space-between;
-    padding: 2em;
+    padding: 1.5em;
 }
 
 ul {
@@ -42,6 +43,10 @@ ul {
     a,
     h1 {
         color: white;
+    }
+    a:hover{
+        color: #90CAF9; 
+        text-decoration: none;
     }
 }
 
@@ -75,6 +80,7 @@ section {
 
 .projects {
     position: relative;
+  
 }
 
 .projects::before {
@@ -126,16 +132,16 @@ section {
     border: 5px solid #1E88E5;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
-    height: 50%;
+    width: 75%;
+    height: 75%;
 }
 .project-img2{
     border-radius: 5%;
     border: 5px solid #1E88E5;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
-    height: 50%;
+    width: 75%;
+    height: 75%;
 }
 
 .subtitle2 {
@@ -170,7 +176,24 @@ section {
     display: block;
     font-weight: bold;
 }
-
+.skills{
+    .wrapper{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-auto-rows: 200px;
+        grid-gap: 5em;
+        grid-row-gap: 150px;
+        img{
+            height: 75%;
+            width: 75%;
+        }
+        h1{
+            letter-spacing: .1em;
+            font-weight: bold;
+            font-size: 1.5em;
+        }
+    }
+}
 .about-container {
     background: #90CAF9;
     padding: 3em;
@@ -207,6 +230,10 @@ footer {
    text-align: center;
 a{
     color:white
+}
+a:hover{
+    color: #90CAF9; 
+    text-decoration: none;
 }
 }
 

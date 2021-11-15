@@ -20,6 +20,7 @@ ul {
 
 a {
   text-decoration: none;
+  color: white;
 }
 
 header {
@@ -29,7 +30,7 @@ header {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding: 2em;
+  padding: 1.5em;
 }
 
 header h1 {
@@ -55,6 +56,11 @@ ul a {
 .nav-container a,
 .nav-container h1 {
   color: white;
+}
+
+.nav-container a:hover {
+  color: #90CAF9;
+  text-decoration: none;
 }
 
 .content {
@@ -143,8 +149,8 @@ section {
   border: 5px solid #1E88E5;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
-  height: 50%;
+  width: 75%;
+  height: 75%;
 }
 
 .project-img2 {
@@ -152,8 +158,8 @@ section {
   border: 5px solid #1E88E5;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
-  height: 50%;
+  width: 75%;
+  height: 75%;
 }
 
 .subtitle2 {
@@ -188,6 +194,27 @@ section {
   font-size: 1em;
   display: block;
   font-weight: bold;
+}
+
+.skills .wrapper {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 200px;
+  grid-gap: 5em;
+  grid-row-gap: 150px;
+}
+
+.skills .wrapper img {
+  height: 75%;
+  width: 75%;
+}
+
+.skills .wrapper h1 {
+  letter-spacing: .1em;
+  font-weight: bold;
+  font-size: 1.5em;
 }
 
 .about-container {
@@ -229,6 +256,11 @@ footer {
 
 footer a {
   color: white;
+}
+
+footer a:hover {
+  color: #90CAF9;
+  text-decoration: none;
 }
 
 @media only screen and (min-width: 1240px) {
