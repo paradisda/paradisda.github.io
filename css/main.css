@@ -199,8 +199,8 @@ section {
 .skills .wrapper {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (100px)[3];
-      grid-template-columns: repeat(3, 100px);
+  -ms-grid-columns: (1fr)[6];
+      grid-template-columns: repeat(6, 1fr);
   grid-auto-rows: 150px;
   grid-gap: 3em;
   grid-row-gap: 50px;
