@@ -176,24 +176,7 @@ section {
     display: block;
     font-weight: bold;
 }
-.skills{
-    .wrapper{
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-auto-rows: 200px;
-        grid-gap: 1em;
-        grid-row-gap: 100px;
-        img{
-            height: 50%;
-            width: 50%;
-        }
-        h1{
-            letter-spacing: .1em;
-            font-weight: bold;
-            font-size: 1em;
-        }
-    }
-}
+
 .about-container {
     background: #90CAF9;
     padding: 3em;
@@ -235,6 +218,25 @@ a:hover{
     color: #90CAF9; 
     text-decoration: none;
 }
+}
+
+.skills{
+    .wrapper{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-auto-rows: 150px;
+        grid-gap: 1em;
+        grid-row-gap: 100px;
+        img{
+            height: 75%;
+            width: 75%;
+        }
+        h1{
+            letter-spacing: .1em;
+            font-weight: bold;
+            font-size: 1.5em;
+        }
+    }
 }
 
 @media only screen and (min-width: 1240px) {
@@ -357,25 +359,6 @@ a:hover{
             font-size: 50px;
             margin-top: .5em;
             
-        }
-    }
-
-    .skills{
-        .wrapper{
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            grid-auto-rows: 150px;
-            grid-gap: 1em;
-            grid-row-gap: 100px;
-            img{
-                height: 75%;
-                width: 75%;
-            }
-            h1{
-                letter-spacing: .1em;
-                font-weight: bold;
-                font-size: 1.5em;
-            }
         }
     }
 
