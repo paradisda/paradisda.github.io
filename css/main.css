@@ -243,6 +243,10 @@ footer a:hover {
   text-decoration: none;
 }
 
+.skills {
+  max-width: 100%;
+}
+
 .skills .wrapper {
   display: -ms-grid;
   display: grid;
