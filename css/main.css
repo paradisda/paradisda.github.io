@@ -361,7 +361,7 @@ footer a:hover {
     font-size: 4em;
   }
   .home-content {
-    width: 400px;
+    width: 100%;
   }
   .home-content p {
     font-size: 200%;
