@@ -374,8 +374,9 @@ footer a:hover {
   .content {
     text-align: center;
     padding: 2em;
-    display: -ms-grid;
-    display: grid;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
   }
   .content h1 {
     font-size: 4em;
