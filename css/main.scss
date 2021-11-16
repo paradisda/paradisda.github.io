@@ -357,16 +357,13 @@ a:hover{
     .content {
         text-align: center;
         padding: 2em;
-        display: flex;
         h1{
             font-size: 4em;
         }
     }
     
     .home-content {
-        width: 100%;
-        display: flex;
-        margin: 0 auto;
+        width: 400px;
         p{
             font-size: 200%;
         }
