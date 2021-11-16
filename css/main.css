@@ -371,11 +371,21 @@ footer a:hover {
     width: 400px;
     height: 400px;
   }
+  .content {
+    text-align: center;
+    padding: 2em;
+    display: -ms-grid;
+    display: grid;
+  }
   .content h1 {
     font-size: 4em;
   }
   .home-content {
     width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0 auto;
   }
   .home-content p {
     font-size: 200%;

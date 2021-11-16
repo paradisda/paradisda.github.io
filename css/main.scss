@@ -355,7 +355,9 @@ a:hover{
     }
 
     .content {
-       
+        text-align: center;
+        padding: 2em;
+        display: grid;
         h1{
             font-size: 4em;
         }
@@ -363,6 +365,8 @@ a:hover{
     
     .home-content {
         width: 100%;
+        display: flex;
+        margin: 0 auto;
         p{
             font-size: 200%;
         }
@@ -372,6 +376,4 @@ a:hover{
             
         }
     }
-
-
 }
